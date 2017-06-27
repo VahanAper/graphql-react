@@ -3,8 +3,17 @@
   justify-content: space-between;
 
 }
-
 .collection-item .material-icons {
   cursor: pointer;
+  margin-right: 5px;
+}
+.material-icons.delete {
   color: red;
+}
+.material-icons.like {
+  color: blue;
+}
+.vote-box {
+  display: flex;
+  align-items: center;
 }
